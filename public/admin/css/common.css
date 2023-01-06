@@ -1,0 +1,119 @@
+/* 后台登录页 */
+.login {
+    /* background: #ccc; */
+    background: url('../image/VCG211258128067.jpg');
+}
+.login > .container {
+    max-width: 500px;
+    height: 100vh;
+    float: right;
+    /* background: #fff; */
+    margin: 0 auto;
+    /* margin-top: 10%; */
+    padding: 140px 40px 10px 40px;
+    /* margin-right: 100px; */
+    /* border-radius: 22px; */
+}
+.login h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+/* 后台首页 */
+.main-title {
+    margin: 10px 0 0;
+    padding: 10px 0;
+}
+
+.main-title > h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #666;
+    margin: 0;
+    padding-left: 0px;
+}
+
+/*  */
+
+/* ---------------------------------------- */
+a:hover {
+    text-decoration: none;
+}
+
+.layui-nav-child {
+    padding: 0;
+}
+
+.layui-form-label {
+    width: 90px;
+}
+
+.layui-form-checkbox i {
+    height: 30px;
+}
+
+.text-left b {
+    font-size: 30px;
+}
+
+.alert {
+    z-index: 9999;
+}
+
+.heigth {
+    border: 2px rgb(211, 209, 209) solid;
+    padding: 15px;
+    margin: 20px;
+}
+
+.table-title th {
+    font-weight: 800;
+}
+
+.layui-input {
+    border-color: rgb(202, 198, 198);
+}
+
+.uploadifive-button {
+    background-color: #009688;
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0, #009688),
+        color-stop(1, #009688)
+    );
+    border: none;
+}
+
+
+.layui-form-selected{
+    z-index: 99999;
+}
+
+.user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+.user-title{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.card-header{
+    background-color: #1E9FFF;
+}
+
+.user-header{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-backdrop{
+    z-index: 0;
+}
